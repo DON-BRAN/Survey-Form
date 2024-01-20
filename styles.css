@@ -1,0 +1,75 @@
+body { 
+    width: 100%;
+    margin: auto;
+    height: 100vh;
+    color: #00000;
+    background-color: #c4ffdc;
+    font-family: open sans;
+    font-size: 17px;}
+h1, p{
+ margin: 1em auto;
+ text-align: center;
+}
+form{ width: 80%;
+min-width: 200px;
+max-width: 400px;
+margin: auto;
+padding: 0;}
+fieldset{ padding: 1em 0;
+border-bottom: 5px solid;
+border: none;
+}
+label { display: block;
+margin: 1.5rem auto;
+}
+input, textara, select{
+ margin: 15px 0 0 0;
+ width: 100%;
+ min-height: 2rem 0;
+}
+input, textera{ background-color: #ab5448;
+color: #ffffff;
+font-family: arial bold;
+font-size: 18;
+border: 10px solid #ab5448}
+.inline {
+   width: unset;
+   margin: auto 0.5em 0 2em;
+   vertical-align: middle;
+ }
+.form{ width: 65%;
+      margin: auto;
+      padding: 20px;
+      max-width: 600px;
+      background-color:  	rgb(133,176,90,2.5) }
+ button{
+   display: block;
+   width: auto;
+   margin:0 auto;
+   height: 2em;
+   font-size: 1.5rem;
+   background-color: #ab5448;
+   border-color: white;
+   
+ }
+ 
+
+ .inline{
+   display: inline; 
+ }
+ #dropdown{
+   background-color: #ab5448;
+color: #ffffff;
+font-family: arial bold;
+font-size: 18;
+border: 5px solid #ab5448}
+ 
+input[type="radio"]{
+ background-color: #ab5448
+}
+textarea{ 
+ background-color: #ab5448;
+ font-family: arial bold;
+ display: block;
+
+}
