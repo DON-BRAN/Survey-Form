@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Registration Form</title>
+    <link href="styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="form"> 
+      <h1 id="title">BRISTOW Registration Form</h1>
+      <p id="description">You are taking out time to help us improve. Thank you</p>
+    <fieldset>
+      <form id="survey-form">
+        <label for="name">Name<input id="name" type="text" required placeholder="Input your full names" > </label>
+        <label id= "name-label"> Input your name as it is on your id-card</label>
+        <label for="email">Email <input id="email" type="email" required placeholder="Input a valid email"></label>
+        <label id="email-label">Input an email address which is accessible</label>
+        <label for="number">Age<input id="number" type="number" placeholder="Input your age" min="18" max="32"></label>
+        <label id="number-label">min=18--- max=32</label>
+        <label for="referrer"> How did you get to know about us:
+   <select id="dropdown" name="referrer">
+        <option>select one</option>
+        <option>Radio</option>
+        <option>Flyer</option>
+        <option>Banner</option>
+        <option>Friend</option>
+      </select>
+          <legend>Account type </legend>
+          <label for="student"><input type="radio" name="account-type" id="student" class="inline" checked value="1"> Student</label>
+          <label for="lecturer">
+            <input id="lecturer" type="radio" name="account-type" class="inline" value="2">Lecturer
+      </label> 
+          <legend>What specialty are you enrolling for</legend>
+          <label for="specialty"><input id="specialty" name="HND in Nursing" type="checkbox" checked value="1" class="inline">HND in Nursing</label>
+          <label for="specialty"><input id="specialty" name="HND in Lab sciences" type="checkbox" value="2" class="inline">HND in Nursing</label>
+          <label for="specialty"><input id="specialty" name="Auxillary of life" type="checkbox" value="3" class="inline">Auxillary of Life</label>
+          <label for="specialty"><input id="specialty" name="Assist. biochemist" type="checkbox" class="inline" value="4">Assistant Biochemist</label>
+          <label for="comment" class="inline"> What's your motivation to join the field
+            <textarea id="comment" name="comment" row="40" cols="auto" placeholder="Gives us your inspiration"></textarea> </label>
+  <button id="submit">Submit</button>
+  </form>
+  </fieldset>
+  </div>
+</body>
+</html>
